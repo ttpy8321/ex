@@ -1,0 +1,18 @@
+.test-header {
+  display: flex;
+}
+
+.test-cell {
+  /* width: 10em; */
+  height: 2rem;
+  border-right: 1px solid white;
+  background-color: cadetblue;
+}
+
+.test-content {
+  display: flex;
+}
+
+.test-content .test-cell {
+  background-color: silver;
+}

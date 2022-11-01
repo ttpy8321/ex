@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "index.css";
+@import "test.css";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
