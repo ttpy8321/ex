@@ -1,16 +1,23 @@
 .test-header {
   display: flex;
+  justify-content: space-between;
 }
 
 .test-cell {
-  /* width: 10em; */
-  height: 2rem;
+  width: 200px;
+  height: 200px;
   border-right: 1px solid white;
-  background-color: cadetblue;
+  background-color: peru;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
 }
 
 .test-content {
   display: flex;
+  justify-content: space-between;
 }
 
 .test-content .test-cell {
